@@ -1,0 +1,11 @@
+.galeria {
+    width: 100%;
+    height: 300px;
+    background-color: #2680EB;
+    }
+    
+    .central{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }

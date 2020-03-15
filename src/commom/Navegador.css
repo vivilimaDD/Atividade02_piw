@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navegador{
+width: 100%;
+height: 50px;
+background-color: #2680EB;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:cornsilk;
+display: flex;
+}
+.logo{
+font-size: 20px;
+font-weight: bolder;
+width: 25%;
+text-align: center;
+padding-top: 10px;
+}
+.usuario{
+width: 25%;
+text-align: center;
+padding-top: 15px;
+}
+ul{
+width: 50%;
+display: flex;
+list-style-type: none;
+}
+ul li{
+width: 25%;
+text-align: center;
+padding-left: 20px;
+cursor: pointer;
+
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+}
+  
