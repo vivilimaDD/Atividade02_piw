@@ -69,7 +69,6 @@ class Galeria extends Component {
                             (user) => (<CardUsuario
                                 key={user.id}
                                 img={user.img}
-                                id={user.id}
                                 usuario={user.usuario}
                                 mensagem={user.mensagem}
                                 like={user.like}
