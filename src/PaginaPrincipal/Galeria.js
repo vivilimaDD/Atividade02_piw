@@ -55,8 +55,8 @@ class Galeria extends Component {
         ]
     }
 
-    recebiClick = () => {
-        console.log("Recebeu Like");
+    recebiClick = (usuario, clicks) => {
+        console.log( usuario + " Recebeu Like " + clicks + " vezes");
 
     }
 
@@ -72,7 +72,7 @@ class Galeria extends Component {
                                 usuario={user.usuario}
                                 mensagem={user.mensagem}
                                 like={user.like}
-                                foiClicado={this.recebiClick}>
+                                clicado={this.recebiClick}>
                             </CardUsuario>)
                         )}
                     </div>

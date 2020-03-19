@@ -13,7 +13,7 @@ class CardUsuario extends Component {
 
     foiClicado = () => {
         this.incrementarClick();
-        this.props.foiClicado();
+        this.props.clicado(this.props.usuario, this.state.clicks + 1);
 
     };
 
